@@ -1,7 +1,7 @@
 #ifdef _WIN32
 #include <conio.h>
 #include <stdio.h>
-#define clj rscr() printf("\e[1;1H\e[2J")
+#define clrscr() printf("\e[1;1H\e[2J")
 #endif
 
 char square[10] = {'o', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
